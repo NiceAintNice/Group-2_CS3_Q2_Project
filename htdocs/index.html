@@ -26,9 +26,6 @@
                 font-weight: 400;
                 src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
             }
-            aside {
-                float: left;
-            }
             section {
                 text-align: justify;
                 font-family: 'Product Sans';
@@ -38,8 +35,8 @@
                 border-right: none;
                 border-bottom: none;
                 border-top: none;
-                height: 700px;
-                width: 10px;
+                height: 100vh;
+                width: 5px;
                 margin-top: 10px;
                 float: left;
             }
@@ -67,53 +64,70 @@
         </style>
     </head>
     <body>
-        <header>     
-            <aside>            
+        <div style="min-width: 960px; margin: 0 auto;">
+
+        <header>    
+
+            <aside style="float: left;">            
                 <a href="index.html"> <img style="padding: 10px; height: 75px;" src="../images/Header.png"></a>
-            </aside>   
+            </aside> 
+
         </header>
-        <aside style="padding: 10px; width: 25%;": black 2px solid;">
+
+        <aside style="float: left; padding: 10px; width: 25%;">
+
             <section>
                 <center>
-                    <a href="../htdocs/article 3.html"> <img src="../images/Chimax Complete Logo.png" width="300px" height="200px"> </a>
+                    <a href="../htdocs/article 3.html"> <img src="../images/Chimax Complete Logo.png" width="100%"> </a>
                 </center>                
                 <a style="text-decoration: none; color: white;" href="../htdocs/article 3.html"><h4> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit, error quo sit delectus possimus reiciendis sunt debitis aspernatur ipsum, a deleniti itaque, explicabo sequi. Magni veniam rem a fugit.</h4></a>
             </section>
+
             <hr style="border: black 2px solid;">
+
             <section>
                 <center>
-                    <a href="../htdocs/article 4.html"> <img src="../images/Chimax Complete Logo.png" width="300px" height="200px"> </a>
+                    <a href="../htdocs/article 4.html"> <img src="../images/Chimax Complete Logo.png" width="100%"> </a>
                 </center>
                 <a style="text-decoration: none; color: white;" href="../htdocs/article 4.html"><h4> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit, error quo sit delectus possimus reiciendis sunt debitis aspernatur ipsum, a deleniti itaque, explicabo sequi. Magni veniam rem a fugit.</h4></a>
             </section>
+
         </aside>
         
         <div class="vl1"></div>
         
-        <article>
+        <aside>
+
             <section style="font-size: xx-large; font-weight: bold; padding: 3px;">
                 <a style="text-decoration: none; color: white;" href="../htdocs/article 1.html">Headline that should be reall long cuz of the awkwad</a>
             </section>
-            <section style="overflow: auto; max-width: fit-content;">
-                <aside style="float: right;">                   
-                    <a style="text-decoration: none; color: white;" href="../htdocs/article 1.html"><img src="../images/Chimax Complete Logo.png" width="650" height="250px"></a>
-                </aside>
-                <section style="margin-right: 660px;">
-                    <a style="text-decoration: none; color: white;" href="../htdocs/article 1.html">                 
-                        <h1 style="margin-top: 0px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit, error quo sit delectus possimus reiciendis sunt debitis aspernatur ipsum, a deleniti itaque, explicabo sequi. Magni veniam rem a fugit.</h1>
-                        <h1 style="margin-top: 0px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit, error quo sit delectus possimus reiciendis sunt debitis aspernatur ipsum, a deleniti itaque, explicabo sequi. Magni veniam rem a fugit.</h1>
-                    </a>
-                </section>
+
+            <section style="overflow: auto; max-width: 74%;"> 
+
+                <article style="float: right; width: 50%">
+                    <a href="../htdocs/article 1.html"><img src="../images/Chimax Complete Logo.png" width="100%"></a>
+                </article> 
+
+                <article style="width: 49%; text-decoration: none; color: white;" href="../htdocs/article 1.html">             
+                        <h1 style="margin-top: 0px;"> Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium laudantium porro ullam, eaque velit magnam ducimus illo enim magni ipsum, quis autem provident consectetur exercitationem tempore rerum quia excepturi delectus. </h1>
+                </article>      
+
             </section>
+
             <hr style="border: black 2px solid;">
+
             <section>
+
                 <article style="float: left; width: 45%; padding: 3px;">
+
                     <article style="font-size: xx-large; font-weight: bold; padding: 3px;">
                         <a style="text-decoration: none; color: white;" href="../htdocs/article 2.html">Headline space</a>
                     </article>
+
                     <aside style="float: left; padding: 4px;">                
                         <a style="text-decoration: none; color: white;" href="../htdocs/article 2.html"><img src="../images/Chimax Complete Logo.png" width="200px" height="330px"></a>
                     </aside>
+
                     <a style="text-decoration: none; color: white;" href="../htdocs/article 2.html">
                         <h1 style="padding: 3px; margin-top: 0px;">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque illo aliquid dolores exercitationem, quod tempore modi reprehenderit deserunt corrupti dolorem! Neque, quo sapiente praesentium rerum rem quam vitae numquam dicta?
@@ -122,25 +136,38 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat pariatur quo ducimus, asperiores hic iusto culpa officia sunt iste ipsa repudiandae quasi cumque explicabo similique? Necessitatibus quisquam voluptate unde repellat.
                         </h1>
                     </a>
+
                 </article>
+
             </section>
+
             <div class="vl2"></div>
+
             <section style="padding:10px;">
+
                 <center>
-                    <a href="https://wvc.pshs.edu.ph/"> <img src="../images/Advertisement.jpg" width="300px"> </a>
+                    <a href="https://wvc.pshs.edu.ph/" target="_blank"> <img src="../images/Advertisement.jpg" width="300px"> </a>
                     <a style="text-decoration: none;" href="https://wvc.pshs.edu.ph/"> <h1>Join us at Pisay now!</h1> </a> 
                 </center>
+
             </section>
-        </article>
-        <footerc style="font-family: 'Product Sans'; color: white;">
+
+        </aside>
+        <footer style="font-family: 'Product Sans'; color: white;">
+
             <div class="hr1">
             </div>
+
             <aside style="float: right; margin-right: 10px;">
                 <a style="text-decoration: none;" href="https://wvc.pshs.edu.ph/"> <h1>About Us</h1> </a> 
             </aside>
+
             <h1>
                 Copyright 2023 ©
             </h1>
+
         </footer>
+
+        </div>
     </body>
 </html>
