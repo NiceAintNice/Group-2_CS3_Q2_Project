@@ -4,8 +4,8 @@ header {
     font-family: 'Product Sans';
     overflow: auto;
     background-color: #fafafa;
-    margin-top: -10px;
-    margin-left: -10px;
+    margin-top: -8px;
+    margin-left: -8px;
     margin-right: -8px;
 }
 @font-face {
@@ -25,23 +25,74 @@ section {
 }
 .transition-img:hover{
     opacity:50%;
-    transition:opacity;
+    transition:opacity; 
 }
 body{
     min-width: 960px; 
     max-width: 100%; 
-    margin; 0;
 }
 a{
-    float: left;
+    text-decoration: none; 
+    color: white;
 }
 aside{
     float: left; 
-    margin-top: 10px; 
-    padding: 10px; 
+    margin-top: 1%;
+    padding-right: 1%;
     width: 25%;  
     border-right: 2px solid black;
     border-left: none;
     border-bottom: none;
     border-top: none;
 }
+article{
+    text-align: justify;
+    font-family: 'Product Sans';
+    color: white;
+    overflow: auto;
+}
+hr{
+    border: 1px black solid;
+}
+ul{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+}
+li{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 5px;
+    margin: 0;
+}
+nav{
+    background-color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+li:hover{
+    background-color: gray;
+}
+#navlist{
+    position: fixed;
+    top:0;
+    height: 35px;
+    width: 150px;
+}
+#facebook{
+    background: url(../images/Facebook\ Logo.jpg) no-repeat;
+    width: 30px;
+    height: 30px;
+}
+#x{
+    background: url(../images/X\ Logo.png Logo.jpg) no-repeat;
+    width: 30px;
+    height: 30px;
+}
+#instagram{
+    background: url(../images/Instagram\ Logo.png Logo.jpg) no-repeat;
+    width: 30px;
+    height: 30px;
+}
+    
