@@ -81,6 +81,7 @@ li:hover{
     position: fixed;
     bottom: 29px;
     z-index: 10;
+    background-color: white;
   }
   
   #navlist li {
@@ -90,31 +91,34 @@ li:hover{
     position: absolute;
     top: 0;
   }
+  #navlist li:hover{
+    opacity:50%;
+    transition:opacity; 
+  }
   
   #navlist li, #navlist a {
     height: 44px;
     display: block;
   }
 #facebook{
-    background: url(../images/Facebook\ Logo.gif) no-repeat 0 0;
+    background: url(../images/Facebook\ Logo.png) no-repeat 0 0;
     height: 40px;
     width: 40px;
     left:0;
     background-size: 40px;
 }
 #x{
-    background: url(../images/X\ Logo.png) no-repeat -47px 0;
+    background: url(../images/X\ Logo.png) no-repeat 0 0;
     height: 40px;
     width: 40px;
     left: 63px;
     background-size: 40px;
 }
 #instagram{
-    background: url(../images/Instagram\ Logo.gif) no-repeat -91px 0;
+    background: url(../images/Instagram\ Logo.gif) no-repeat 0 0;
     height: 40px;
     width: 40px;
     left: 129px;
     background-size: 40px;
 }
-
     
