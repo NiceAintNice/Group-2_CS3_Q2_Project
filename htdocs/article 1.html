@@ -14,13 +14,72 @@
                 font-family: Arial, Helvetica, sans-serif;
                 margin: 0;
                 padding: 0;
+            }
+
+            header{
+                background-color: green;
+                color: white;
+                padding: 10px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            nav{
+                background-color: red;
+                padding: 10px;
+                text-align: center;
+            }
+
+            nav a{
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+                margin: 0 5px;
+            }
+
+            a:hover{
+                background-color: yellow;
+                color: red;
+            }
+            a:active{
+                background-color: pink;
+                color: black;
+            }
+            a::after{
+                background-color: red;
+                color: white;
+            }
+            section{
+                padding: 20px;
                 background-image: linear-gradient(pink, lightblue, blue);
+            }
+
+            article{
+                margin-bottom: 20px;
+                border-bottom: 1px solid black;
+                padding-bottom: 10px;
             }
         </style>
     </head>
     <body>
+        <header>
         <h1>
             Article 1
         </h1>
+        </header>
+
+        <nav>
+            <a href="index.html"> HOME</a>
+            <a href="article 2.html"> article 2</a>
+            <a href="article 3.html"> article 3</a>
+            <a href="article 4.html"> article 4</a>
+
+        </nav>
+
+        <section>
+            <article>
+                <h2> While LizQuen fans express delight over the two’s recent exchange on social media, some got   intrigued over Enrique’s way of greeting the actress.</h2>
+            </article>
+        </section>
     </body>
 </html>
