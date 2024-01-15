@@ -37,6 +37,7 @@ body{
 a{
     text-decoration: none; 
     color: white;
+    font-family: 'Product Sans'
 }
 aside{
     float: left; 
@@ -73,13 +74,17 @@ nav{
     background-color: black;
     margin-left: -8px;
     margin-right: -8px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 li:hover{
     background-color: gray;
 }
 #navlist {
     position: fixed;
-    bottom: 29px;
+    bottom: -67px;
     z-index: 10;
     background-color: white;
   }
