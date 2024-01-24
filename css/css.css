@@ -67,8 +67,9 @@ li{
     display: inline;
     text-decoration: none;
     list-style-type: none;
-    padding-right: 5px;
-    margin: 0;
+    margin-top: 5px;
+    padding: 5px;
+    float: right;
 }
 nav{
     background-color: black;
@@ -78,57 +79,54 @@ nav{
     top: 0;
     right: 0;
     left: 0;
+    height: 50px;
 }
 li:hover{
     background-color: gray;
 }
-  #navlist li {
+#navlist{
+    float: right;
+}
+#navlist li {
     list-style: none;
     position: absolute;
-  }
-  #navlist li, #navlist a {
+}
+#navlist li, #navlist a {
     display: inline;
-  }
+}
 #facebook{
     background: url(../images/FB\ Sprite.png) no-repeat 0 0;
-    height: 40px;
-    width: 40px;
+    width: 40px; height: 40px;
     left:0;
-    background-size: 40px;
 }
 #x{
-    background: url(../images/X\ Sprite.png) no-repeat 0 0;
+    background: url(../images/X\ Sprite.png) no-repeat -70px -10px;
     height: 40px;
     width: 40px;
     left: 63px;
-    background-size: 40px;
 }
 #instagram{
     background: url(../images/Instagram\ Logo.gif) no-repeat 0 0;
     height: 40px;
     width: 40px;
     left: 129px;
-    background-size: 40px;
 }
 #facebook:hover{
-    background: url(../images/Facebook\ Logo.png) no-repeat 0 0;
+    background: url(../images/FB\ Sprite.png) no-repeat -40px 0;
     height: 40px;
     width: 40px;
     left:0;
-    background-size: 40px;
 }
 #x:hover{
-    background: url(../images/X\ Logo.png) no-repeat 0 0;
+    background: url(../images/X\ Sprite.png) no-repeat -10px -10px;
     height: 40px;
     width: 40px;
     left: 63px;
-    background-size: 40px;
 }
 #instagram:hover{
     background: url(../images/Instagram\ Logo.gif) no-repeat 0 0;
     height: 40px;
     width: 40px;
     left: 129px;
-    background-size: 40px;
 }
     
