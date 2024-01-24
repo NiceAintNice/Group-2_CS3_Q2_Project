@@ -62,6 +62,8 @@ ul{
     display: inline;
     text-decoration: none;
     list-style-type: none;
+    padding: 0;
+    margin: 0
 }
 li{
     display: inline;
@@ -80,42 +82,56 @@ nav{
     right: 0;
     left: 0;
     height: 50px;
+    z-index: 1;
 }
 li:hover{
     background-color: gray;
 }
-#navlist{
-    float: right;
-}
 #navlist li {
     list-style: none;
     position: absolute;
+    z-index: 5;
 }
 #navlist li, #navlist a {
     display: inline;
 }
+@keyframes facebook {
+    from {left: 0px;}
+    to {left: 120px;}
+}
+@keyframes x {
+    from {left: 0px;}
+    to {left: 70px;}
+}
+@keyframes insta {
+    from {left: 0px;}
+    to {left: 10px;}
+  }
 #facebook{
     background: url(../images/FB\ Sprite.png) no-repeat 0 0;
     width: 40px; height: 40px;
-    left:0;
+    left: 120px;
+    animation: facebook 3s none;
 }
 #x{
     background: url(../images/X\ Sprite.png) no-repeat -70px -10px;
     height: 40px;
     width: 40px;
-    left: 63px;
+    left: 70px;
+    animation: x 3s none;
 }
 #instagram{
-    background: url(../images/Instagram\ Logo.gif) no-repeat 0 0;
+    background: url(../images/Instagram\ Sprite.png) no-repeat -90px -10px;
     height: 40px;
     width: 40px;
-    left: 129px;
+    left: 10px;
+    animation: insta 2s none;
 }
 #facebook:hover{
-    background: url(../images/FB\ Sprite.png) no-repeat -40px 0;
+    background: url(../images/FB\ Sprite.png) no-repeat -40px 2px;
     height: 40px;
     width: 40px;
-    left:0;
+    left: 119px;
 }
 #x:hover{
     background: url(../images/X\ Sprite.png) no-repeat -10px -10px;
@@ -124,9 +140,9 @@ li:hover{
     left: 63px;
 }
 #instagram:hover{
-    background: url(../images/Instagram\ Logo.gif) no-repeat 0 0;
+    background: url(../images/Instagram\ Sprite.png) no-repeat -20px -10px;
     height: 40px;
     width: 40px;
-    left: 129px;
+    left: 5px;
 }
     
