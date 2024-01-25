@@ -164,23 +164,31 @@ li:hover{
     font-size: xx-large;
     text-align: center;
 }
-.mission {
-    text-align: center;
+#mission{
+    margin-left: 10px;
+    display: none;
 }
-.vision {
-    text-align: center;
+#vision{
+    margin-left: 10px; 
+    display: none; 
+
 }
-.team {
-    text-align: center;
+#team{
+    margin-left: 10px; 
+    display: none; 
+
 }
-.mission:hover {
-    background-color: black;
+#mission:target{
+    margin-left: 10px;
+    display: block; 
 }
-.vision:hover {
-    background-color: black;
+#vision:target{
+    margin-left: 10px; 
+    display: block; 
 }
-.team:hover {
-    background-color: black;
+#team:target{
+    margin-left: 10px; 
+    display: block; 
 }
 
     
