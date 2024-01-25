@@ -166,29 +166,31 @@ li:hover{
 }
 #mission{
     margin-left: 10px;
-    display: none;
+    display: block;
 }
 #vision{
-    margin-left: 10px; 
-    display: none; 
-
+    margin-left: 10px;
+    display: none;
 }
 #team{
-    margin-left: 10px; 
-    display: none; 
-
-}
-#mission:target{
     margin-left: 10px;
-    display: block; 
+    display: none;
 }
 #vision:target{
-    margin-left: 10px; 
-    display: block; 
+    margin-left: 10px;
+    display: block;
+}
+#vision:target ~ #mission{
+    margin-left: 10px;
+    display: none;
 }
 #team:target{
-    margin-left: 10px; 
-    display: block; 
+    margin-left: 10px;
+    display: block;
+}
+#team:target ~ #mission{
+    margin-left: 10px;
+    display: none;
 }
 @keyframes rotate{
     from{transform: rotate(0deg);}
@@ -196,6 +198,12 @@ li:hover{
 }
 .animation{
     animation: rotate 5s linear infinite;
+}
+.hightlight{
+    background-color: #e67917;
+}
+.highlight:hover{
+    background-color: black;
 }
 
     
