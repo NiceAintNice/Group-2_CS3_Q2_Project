@@ -195,13 +195,7 @@ li:hover{
     to{transform: rotate(360deg);}
 }
 .animation{
-    animation: rotate 1s linear infinite;
-}
-@keyframes slide{
-    0%{left: 0px; top: 0px;}
-    25%{right: 0px;top: 0px;}
-    50%{left: 0px;}
-    100%{right: 0px;}
+    animation: rotate 5s linear infinite;
 }
 
     
