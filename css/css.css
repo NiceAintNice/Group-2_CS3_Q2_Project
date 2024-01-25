@@ -170,27 +170,16 @@ li:hover{
 .vision {
     text-align: center;
 }
-.staff {
-    text-align: center;
-}
-.BoD {
+.team {
     text-align: center;
 }
 .mission:hover {
     background-color: black;
-    display: block;
-}
-.mission:active {
-    background-color: lightcoral;
-    display: block;
 }
 .vision:hover {
     background-color: black;
 }
-.staff:hover {
-    background-color: black;
-}
-.BoD:hover {
+.team:hover {
     background-color: black;
 }
 
