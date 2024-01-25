@@ -1,7 +1,14 @@
 *{
     box-sizing: border-box;
 }
-    header {
+html{
+    background-color: #e67917;
+}
+::selection{
+    color:#e67917;
+    background-color: white;
+}
+header {
     border: #fafafa 2px solid;
     text-align: left;
     font-family: 'Product Sans';
@@ -89,42 +96,47 @@ li:hover{
 }
 #navlist li {
     list-style: none;
-    position: absolute;
-    z-index: 5;
 }
 #navlist li, #navlist a {
     display: inline;
 }
 @keyframes facebook {
-    from {left: 0px;}
-    to {left: 120px;}
+    from {left: -40px;}
+    to {left: 119px;}
 }
 @keyframes x {
-    from {left: 0px;}
-    to {left: 70px;}
+    from {left: -40px;}
+    to {left: 65px;}
 }
 @keyframes insta {
-    from {left: 0px;}
+    from {left: -40px;}
     to {left: 10px;}
   }
 #facebook{
     background: url(../images/FB\ Sprite.png) no-repeat 0 0;
-    width: 40px; height: 40px;
-    left: 120px;
+    width: 40px; 
+    height: 40px;
+    position: absolute;
+    left: 119px;
+    bottom: 5px;
     animation: facebook 3s none;
 }
 #x{
     background: url(../images/X\ Sprite.png) no-repeat -70px -10px;
     height: 40px;
     width: 40px;
-    left: 70px;
+    position: absolute;
+    left: 65px;
+    bottom: 5px;
     animation: x 3s none;
 }
 #instagram{
     background: url(../images/Instagram\ Sprite.png) no-repeat -90px -10px;
     height: 40px;
     width: 40px;
+    position: absolute;
     left: 10px;
+    bottom: 5px;
     animation: insta 2s none;
 }
 #facebook:hover{
@@ -132,17 +144,54 @@ li:hover{
     height: 40px;
     width: 40px;
     left: 119px;
+    bottom: 5px;
 }
 #x:hover{
     background: url(../images/X\ Sprite.png) no-repeat -10px -10px;
     height: 40px;
     width: 40px;
-    left: 63px;
+    left: 65px;
+    bottom: 5px;
 }
 #instagram:hover{
     background: url(../images/Instagram\ Sprite.png) no-repeat -20px -10px;
     height: 40px;
     width: 40px;
-    left: 5px;
+    left: 10px;
+    bottom: 5px;
 }
+.aboutus{
+    font-size: xx-large;
+    text-align: center;
+}
+.mission {
+    text-align: center;
+}
+.vision {
+    text-align: center;
+}
+.staff {
+    text-align: center;
+}
+.BoD {
+    text-align: center;
+}
+.mission:hover {
+    background-color: black;
+    display: block;
+}
+.mission:active {
+    background-color: lightcoral;
+    display: block;
+}
+.vision:hover {
+    background-color: black;
+}
+.staff:hover {
+    background-color: black;
+}
+.BoD:hover {
+    background-color: black;
+}
+
     
